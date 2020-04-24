@@ -38,8 +38,8 @@ public:
 	{
 		int w, h;
 		GLubyte* data = 0;
-		data = glmReadPPM("soccer_ball_diffuse.ppm", &w, &h);
-		std::cout << "Read soccer_ball_diffuse.ppm, width = " << w << ", height = " << h << std::endl;
+		//data = glmReadPPM("soccer_ball_diffuse.ppm", &w, &h);
+		//std::cout << "Read soccer_ball_diffuse.ppm, width = " << w << ", height = " << h << std::endl;
 
 		//dib1 = loadImage("soccer_ball_diffuse.jpg"); //FreeImage
 
